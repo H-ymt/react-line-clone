@@ -24,7 +24,7 @@ function Line() {
           <div>
             <Message
               key={id}
-              className={`msg ${uid === auth.currentUser.uid? "sent" : "received"} `}
+              className={`msg ${uid === auth.currentUser.uid ? "sent" : "received"} `}
             >
               <img src={photoURL} alt="" />
               <p>{text}</p>
@@ -42,7 +42,7 @@ export default Line;
 
 const Message = styled.p`
   display: flex;
-  padding: 20px 10px 0 20px;
+  padding: 8px 10px 0px 10px;
   margin: 20px;
   border-radius: 3000px;
   box-shadow: 0 0 10px rgb(164, 164, 164);

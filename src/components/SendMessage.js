@@ -63,7 +63,7 @@ const SendMsg = styled.div`
   z-index: 1;
   border-top: 1px solid lightgray;
   margin-left: -5px;
-  padding: 32px;
+  padding: 24px;
   padding-bottom: 32px;
   background-color: #fafafa;
 `;
